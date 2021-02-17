@@ -21,7 +21,7 @@
 			}
 		  
 			else if(strlen ($_POST["uname"])<=6){
-				$err_uname="*Uname should be at least 6 characters";
+				$err_uname="*Username should be at least 6 characters";
 			}
 			else{
 				$uname=$_POST["uname"];
@@ -38,31 +38,31 @@
 			}
 
 			if(empty($_POST["bio"])){
-				$err_bio="*bio text area must be filled";
+				$err_bio="*inser bios";
 			}
 			else{
 				$bio=$_POST["bio"];
 			}
 
 			if(empty($_POST["profession"])){
-				$err_profession="****Select a profession";
+				$err_profession="*Select your profession";
 			}
 			else{
 				$profession=$_POST["profession"];
 			}
 
 			if(empty($_POST["gender"])){
-				$err_gender="****Please select gender";
+				$err_gender="*Please select gender";
 			}
 			
 			if(empty($_POST["hobbies"])){
-				$err_hobbies="****Select hobby or hobbies";
+				$err_hobbies="*Select hobby";
 			}
 
 		}
 		 ?>
 	
-		<form action="" method="post">
+		<form action="submited.php" method="post">
 			<table>
 				<tr>
 					<td rowspan="2"><span>User access </span></td>
