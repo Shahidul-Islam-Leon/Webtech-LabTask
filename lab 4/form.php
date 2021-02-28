@@ -56,7 +56,7 @@
 			}
 			
 			if(empty($_POST["hobbies"])){
-				$err_hobbies="*Select hobby";
+				$err_hobbies="*Select hobby or hobbies";
 			}
 
 		}

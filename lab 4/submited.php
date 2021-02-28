@@ -10,6 +10,7 @@
 			echo "Gender: ".$_POST["gender"]."<br>";
 			echo "Profession: ".$_POST["profession"]."<br>";
 			echo "Bio: ".$_POST["bio"]."<br>";
+			echo "Hobby: ";
 			$var = $_POST["hobbies"];
 			for($i=0;$i<count($var);$i++){
 				echo $var[$i]."<br>";
